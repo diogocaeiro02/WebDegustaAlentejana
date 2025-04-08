@@ -1,13 +1,95 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Degustação Alentejana</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- Navegação -->
+    <nav>
+      <div class="logo">
+        <img src="images/logo.png" alt="Degustação Alentejana" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#gallery">Galeria</a></li>
+      </ul>
+    </nav>
+
+    <!-- Cabeçalho -->
+    <header>
+      <img src="images/sala2.jpg" alt="Imagem principal" class="header-image" />
+      <div class="header-content">
+        <h1>Degustação Alentejana</h1>
+        <p class="slogan">Tradicionalidade e Sabor ao Seu Alcance</p>
+      </div>
+      <div class="custom-shape-divider-bottom-1744115554">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+      </div>
+    </header>
+
+    <!-- Sobre Nós -->
+    <section id="about">
+      <div class="about-text">
+        <h2>Sobre Nós</h2>
+        <p>
+          Somos uma empresa que oferece a verdadeira experiência gastronómica
+          alentejana, com um toque de simplicidade e sofisticação. Orgulhamo-nos
+          da qualidade e tradição dos nossos pratos.
+        </p>
+      </div>
+      <div class="about-images">
+        <img src="images/buffet1.jpg" alt="Imagem 1" />
+        <img src="images/sala2.jpg" alt="Imagem 2" />
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="services">
+      <h2>Serviços</h2>
+      <div class="service-cards">
+        <div class="card">
+          <h3>Eventos Corporativos</h3>
+          <p>
+            Oferecemos soluções personalizadas para eventos corporativos, com
+            menus que encantam os seus colaboradores e clientes.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Casamentos</h3>
+          <p>
+            Transformamos o seu casamento em um evento inesquecível com pratos
+            autênticos e deliciosos, preparados com amor e dedicação.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Eventos Privados</h3>
+          <p>
+            Celebre ocasiões especiais com a nossa gastronomia única, ideal para
+            aniversários, batizados e mais.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="gallery">
+      <div class="gallery-container">
+        <img src="images/sala3.jpg" alt="Imagem 1" class="gallery-item" />
+        <img src="images/sala4.jpg" alt="Imagem 2" class="gallery-item" />
+        <img src="images/sala2.jpg" alt="Imagem 3" class="gallery-item" />
+        <!-- Adicione mais imagens conforme necessário -->
+      </div>
+    </section>
   </body>
 </html>
